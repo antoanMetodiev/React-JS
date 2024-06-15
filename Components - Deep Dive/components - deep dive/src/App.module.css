@@ -1,0 +1,27 @@
+
+.listItem {
+    list-style: none;
+    color: #000;
+    margin-top: 1em;
+    padding: 0.3em;
+    font-size: 1em;
+    background-color: #85DCFF;
+}
+
+.listItem:hover {
+    background-color: aqua;
+    color: #fff;
+    cursor: pointer;
+    width: 600px;
+    transition: width 3s, color 3s ,background-color 1s, transform 1s;
+}
+
+.button:hover {
+    padding: 0.4em 1em;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(232, 96, 46);
+    color: #fff;
+    transition: color 2s ,background-color 1.5s, transform 1s;
+    cursor: pointer;
+}
