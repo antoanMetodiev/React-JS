@@ -1,8 +1,5 @@
 export default function Header() {
-
-    // TODO: 
-
-    return(
+    return (
         <header className="navigation-header">
             <span className="navigation-logo">
             <img src="./public/images/todo-icon.png" alt="todo-logo" />
