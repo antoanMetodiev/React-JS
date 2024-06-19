@@ -2,7 +2,6 @@ import { useState } from "react";
 
 export default function ControlledForm() {
     const [usernameValue, setUsernameValue] = useState('');
-    // const [passwordValue, setPasswordValue] = useState('');
 
     function onChangeHandler(event) {
         if (event.target.value.length >= 8) event.target.style.color = 'red';
@@ -10,7 +9,6 @@ export default function ControlledForm() {
         setUsernameValue(event.target.value)
     } 
 
-    
     return (
         <>  
             <h1>LMAO</h1>
@@ -35,7 +33,6 @@ export default function ControlledForm() {
                     <button>Register</button>
                 </div>
             </form>
-            
         </>
     );
 }
