@@ -4,7 +4,6 @@ import Home from './components/Home/Home';
 import HotdChar from './components/HotdChar/HotdChar';
 
 function App() {
-	
 	return (
 		<>
 			<h1>React Router</h1>
